@@ -3,25 +3,19 @@
 }
 
 .table_of_content {
-  width: 300px;
-  padding: 50px;
-  margin: 20px;
-  background-color: rgb(163, 62, 62);
-  border: 15px rgba(165, 42, 42, 0.562);
+  font-size: 70px;
 }
 
 .image{
-  width: 25%;
-  height: 25%;
-  padding: 50px;
-  margin: 5px;
+  width: 75%;
+  height: 75%;
+  flex: auto;
+  align-items: center;
 }
 
 .title {
     color: rgb(21, 93, 93);
     font-family: "Comic Sans MS", cursive, sans-serif;
-    padding: 50px;
-    margin: 20px;
   }
 
 .contact, .footer{
