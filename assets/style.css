@@ -23,3 +23,10 @@
     color: white;
     font: bolder
 }
+
+.application{
+  width: 35%;
+  height: 35%;
+  font-size: 50px;
+
+}
