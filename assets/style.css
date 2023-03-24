@@ -15,7 +15,7 @@
 
 .title {
     color: rgb(21, 93, 93);
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: sans-serif;
   }
 
 .contact, .footer{
@@ -28,5 +28,6 @@
   width: 35%;
   height: 35%;
   font-size: 50px;
-
+  text-align: center;
+  width: 50%;
 }
