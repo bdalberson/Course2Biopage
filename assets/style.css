@@ -5,6 +5,7 @@
   text-align: center;
   border: 50px;
   border-style: groove;
+  border-color: #740001;
   color: rgb(21, 93, 93);
 }
 
@@ -34,6 +35,7 @@
   flex: 1 0 900px; 
   flex-direction: row;
   flex-wrap: wrap;   
+  text-align: center;
 }
 .contact{
   display: flex; 
@@ -61,10 +63,11 @@ div{
   display: flex; 
   flex-direction: row;
   flex-wrap: wrap;
-  border-color:white;
+  border-color:#740001 #740001;
   padding: 10x;
   margin: 10px;
   border-style: groove;
+  text-align: center;
 }
 
 .footer{
@@ -72,4 +75,17 @@ div{
     color: white;
     font: bolder;
     text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  div {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  div {
+    width: 50%;
+  }
 }
