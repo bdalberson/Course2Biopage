@@ -1,7 +1,9 @@
 *{
   background-color: darksalmon;
 }
-
+title{
+  text-align: center;
+}
 .table_of_content {
   font-size: 70px;
 }
@@ -16,6 +18,7 @@
 .title {
     color: rgb(21, 93, 93);
     font-family: sans-serif;
+    text-align: center;
   }
 
 .contact, .footer{
@@ -30,4 +33,32 @@
   font-size: 50px;
   text-align: center;
   width: 50%;
+}
+
+
+
+.space-cointainer{
+  display: flex;
+  flex: 1 0 900px; 
+  justify-content: flex; 
+   
+}
+
+.space {
+  display: flex;
+}
+
+div{
+  width: 300px;
+  border: 50px;
+  background-color: grey;
+  border-color:white;
+  padding: 10x;
+  margin: 10px;
+  display: space;
+  border-style: solid;
+}
+
+.footer{
+  text-align: center;
 }
