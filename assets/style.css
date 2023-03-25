@@ -1,9 +1,8 @@
 *{
-  
+  text-align: center;
 }
 
 .header{
-  text-align: center;
   border: 50px;
   border-style: groove;
   color: rgb(21, 93, 93);
@@ -12,20 +11,17 @@
 
 .table_of_content {
   font-size: 70px;
-  text-align: center;
 }
 
 .title {
     color: rgb(21, 93, 93);
     font-family: sans-serif;
-    text-align: center;
   }
 
 .application{
   width: 35%;
   height: 35%;
   font-size: 50px;
-  text-align: center;
   width: 50%;
   color: rgb(21, 93, 93);
 }
@@ -37,7 +33,6 @@
   flex: 1 0 900px; 
   flex-direction: row;
   flex-wrap: wrap;   
-  text-align: center;
   color: rgb(21, 93, 93);
   background: linear-gradient(darksalmon, #740001);
 }
@@ -48,7 +43,6 @@
   padding: 5%;
   font-size: 25px; 
   color: rgb(21, 93, 93);
-  text-align: center;
 }
 
 .space {
@@ -73,7 +67,6 @@ div{
   padding: 10x;
   margin: 10px;
   border-style: groove;
-  text-align: center;
   color: rgb(21, 93, 93);
   background: linear-gradient(darksalmon, #740001);
 }
@@ -82,7 +75,6 @@ div{
     font-size: x-large;
     color: white;
     font: bolder;
-    text-align: center;
     background: linear-gradient(darksalmon, #740001);
     width: 90%;
 }
