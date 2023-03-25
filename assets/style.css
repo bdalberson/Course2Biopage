@@ -32,12 +32,12 @@
 .space-cointainer{
   display: flex;
   flex: 1 0 900px; 
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;   
 }
 .contact{
   display: flex; 
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   padding: 5%;
   font-size: 25px; 
@@ -46,6 +46,8 @@
 
 .space {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .image{
@@ -57,12 +59,11 @@ div{
   width: 300px;
   border: 50px;
   display: flex; 
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   border-color:white;
   padding: 10x;
   margin: 10px;
-  display: space;
   border-style: groove;
 }
 
