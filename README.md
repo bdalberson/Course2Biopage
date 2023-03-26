@@ -1,8 +1,6 @@
 
 # Course2Biopage
 
-# Your Project Title 
-
 ## Technology Used 
 
 | Technology Used         | Resource URL           | 
@@ -18,116 +16,39 @@
 ![Site Langing Page](./site.gif)
 
 
-## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
-
-* [Code Refactor Example](#code-refactor-example)
-* [Usage](#usage)
-* [Learning Points](#learning-points)
-* [Author Info](#author-info)
-* [Credits](#credits)
-* [License](#license)
-
-
 ## Code Refactor Example
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-
-```html
-<div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-```
-
-Converting the above non-semantic div with the class of 'header' to an appropriate [<header> semantic element](https://www.w3schools.com/html/html5_semantic_elements.asp). 
-
-```html
-<header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-```
-
-This change require some additional modification to the CSS selector: 
-
 ```css
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+div{
+  width: 300px;
+  border: 50px;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10x;
+  margin: 10px;
+  border-style: groove;
+  color: rgb(21, 93, 93);
+  background: linear-gradient(darksalmon, #740001);
 }
 ```
 
-No longer targeting the element on the page with the class of 'header' but instead the css selector targeting the 'header' element 
+```html
+<main>
 
-```css
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
+        <section class = "space">
+          <div class = "space-container">
+            <a href="https://github.com/bdalberson">
+                <img src="./assets/Me.png"  class = "image" alt="picture of myself"/>
+                </a>
+          </div>
 
-```
-
-## Usage 
-
-Provide instructions and examples for use. Include screenshots as needed. 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-```md
-![alt text](assets/images/screenshot.png)
 ```
 
 
 ## Learning Points 
 
-
-This is a good place to Explain what you Learned by creating this application.
-This is a great way to remind about all of the Complex Skills you now have.
-If the user is less experienced than you:
-They will be impressed by what you can do!
-
-If the user is more experienced than you:
-They will be impressed by what you can do!
-
-Remember, it is easy to forget exactly how Valuable and Impressive your skills are, as well as How Much You’ve Learned!
-So quantify that here!
-
-
-* [Portfolio](https://youtu.be/bHX54GCrDB4)
-* [LinkedIn](https://youtu.be/bHX54GCrDB4)
-* [Github](https://youtu.be/bHX54GCrDB4)
+Wow, learned so much.  How to skeleton a page in HTML.  How to select sections and style them with CSS.  So much feels like trial and error at this point but I hope to get more consistent in the future.  Once there's some forms and interaction I'll be able to put some of my scripting skills to use. 
 ```
 
 
@@ -136,20 +57,9 @@ So quantify that here!
 Shout out to bootcamps and continuos learning into your after years
 
 
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
 ## Features
 
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.
-
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
+Just a sick webpage for your viewing pleasure.
 
 ## Tests
 
